@@ -1,10 +1,13 @@
 **About the project**
-This project is about implementing Q-learning on simple maze problems.
+_____________________
+透過迷宮學習Q=learing的演算法
 
 **Action**
-The agent can only do four directions: up, down, left and right.
+_____________________
+機器人執會上下左右
 
 **Reward Policy**
-No move: Reach the wall or the boundary. That is, the next state is the same as this state(now). Reward is "-10".
-Forward: You can move, but you have not reached the goal. Reward is "-1".
-Goal: Reach the goal. Reward is "100".
+_____________________
+No move： 碰到牆或是邊界，即執行完動作還停在原地，回饋 -10 分。
+Forward： 可以移動，但沒有到達終點，回饋 -1 分。
+Goal：到達終點，回饋 100 分。
